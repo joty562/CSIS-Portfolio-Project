@@ -1,0 +1,54 @@
+/* Styles for screens smaller than or equal to 400px wide */
+
+section#main {
+    width: 90%;
+    margin: auto;
+    /* border: #ffffff 2px dashed; */
+}
+
+form {
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;        
+}
+
+button[type="submit"]:hover {
+    background-color: #a6bde8;
+}
+
+#main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 120px;
+}

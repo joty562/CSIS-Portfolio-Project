@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="chocolate, chocolatier, cocoa, cacao, desserts" />
+    <title>Pandaisia Chocolates</title>
+    <link href="pp_reset.css" rel="stylesheet" />
+    <link href="pp_styles1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="pp_courses.css">
+    <script src="pp_courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="header_title">Reza's Page</div>
+        <!-- <img src="https://picsum.photos/200/50" alt="Pandaisia Chocolates" /> -->
+        <nav class="horizontalNavigation">
+            <ul>
+                <li><a href="pp_home.html">Home</a></li>
+                <li><a href="pp_portfolio.html">My Portfolio</a></li>
+                <li><a href="pp_courses.html">My Courses</a></li>
+                <li><a href="pp_aboutme.html">About Me</a></li>
+                <li><a href="pp_contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/c2.jpg" style="width:100%">
+                <div class="text">Introduction to Programming</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/c1.jpg" style="width:100%">
+                <div class="text">The Canadian Economy</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/course2.jpg" style="width:100%">
+                <div class="text">Multimedia Web Development</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <footer>
+        <nav class="verticalNavigation">
+            <h1>Weblogs</h1>
+            <ul>
+                <li><a href="#">Most Recent</a></li>
+                <li><a href="#">Top Views</a></li>
+                <li><a href="#">Educational</a></li>
+            </ul>
+        </nav>
+        <nav class="verticalNavigation">
+            <h1>Social Media</h1>
+            <ul>
+                <li><a href="https://x.com/"><img src="twittericon.png" alt="" />Twitter</a></li>
+                <li><a href="https://www.linkedin.com"><img src="linkedinicon.png" alt="" />LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/"><img src="fbicon.png" alt="" />Instagram</a></li>
+            </ul>
+        </nav>
+        <nav class="verticalNavigation">
+            <h1>Services</h1>
+            <ul>
+                <li><a href="#">Weight Training</a></li>
+                <li><a href="#">Soccer Coaching</a></li>
+                <li><a href="#">Providing Diet Plans</a></li>
+            </ul>
+        </nav>
+        <section id="contactInfo">
+            <h1>My Location &amp; Contacts</h1>
+            <p>Surrey</p>
+            <p>Contact: 778-318-4450</p>
+        </section>
+    </footer>
+</body>
+
+</html>
